@@ -1,0 +1,52 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+		<meta name="description" lang="en" content="Personal homepage of Timo B. Hübel"/>
+		<title>Timo B. Hübel</title>
+		<link href='http://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<script type="text/javascript">
+			function InsertMail(mailnam,mailsvr,maildom,text) {
+				var email = mailnam+'@'+mailsvr+'.'+maildom;
+				if(text=="")
+					document.write("<a href=\"mailto:" + email + "\">" + email + "</a>");
+				else
+					document.write("<a href=\"mailto:" + email +"\">" + text + "</a>");
+			}
+		</script>
+	</head>
+	<body>
+		<div id="content">
+			<div id="left">
+				<img src="tbh.png" alt="Timo B. Hübel"/>
+			</div>
+			<div id="right">
+				<a href="http://github.com/tbh"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
+				<h1>Timo B. Hübel</h1>
+				<p>
+					Coder, hacker and nerd living in <a href="http://www.hamburg.de" alt="Hamburg">Hamburg</a>, Germany.
+				</p>
+				<p>
+					Also, co-founder of <a href="http://www.fortytools.com">fortytools</a>, doing mainly 
+					web-related stuff, preferably in <a href="http://www.haskell.org" alt="Haskell">Haskell</a>.
+				</p>
+				<p>
+					Interested in all things related to coding, hacker culture and especially functional programming. 
+					Doing some open source development and having built <a href="http://www.hayoo.info" alt="Hayoo!">Hayoo!</a>,
+					a Haskell API search engine.
+				</p>
+				<p>
+					Reach me via <a href="http://github.com/tbh">github</a>, 
+					<a href="http://www.xing.com/profile/TimoB_Huebel">XING</a> or by 
+					<script language="javascript">
+						<!-- 
+						InsertMail("t.h","gmx","de","e-mail"); 
+						//-->
+					</script>
+					<noscript><a href="mailto:t DOT h AT gmx DOT info">e-mail</a></noscript>
+				</p>
+			</div>
+		</div>
+	</body>
+</html>
+

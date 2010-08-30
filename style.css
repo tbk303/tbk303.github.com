@@ -1,0 +1,39 @@
+body {
+	background-image:url("http://colourlovers.com.s3.amazonaws.com/images/patterns/221/221504.png");
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+}
+
+#content {
+	background-color:white;
+	border:0.3em solid black;
+	margin:7em;
+	height:500px;
+}
+
+#left {
+	width:300px;
+	float:left;
+	margin-top:43px;
+	margin-right:15em;
+}
+
+#right {
+	margin-left:310px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight:normal;
+	font-family:'Cardo',Georgia,Times,serif;
+}
+
+h1 {
+	font-size:4em;
+}
+
+p {
+/*	font-size:1.0em;*/
+}
+
+a {
+	color:#a00;
+}
