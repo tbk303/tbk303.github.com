@@ -5,7 +5,18 @@
 		<title>Timo B. Hübel</title>
 		<link href='http://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+		<script language="javascript" src="jquery.tweet.js" type="text/javascript"></script>  
 		<script type="text/javascript">
+			$(document).ready(function() {
+				$(".tweet").tweet({
+					username: "wurstschinken",
+					join_text: "auto",
+					count: 3,
+					loading_text: "Loading tweets..."
+				});
+			});
+
 			function InsertMail(mailnam,mailsvr,maildom,text) {
 				var email = mailnam+'@'+mailsvr+'.'+maildom;
 				if(text=="")
@@ -24,7 +35,7 @@
 				<a href="http://github.com/tbh"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
 				<h1>Timo B. Hübel</h1>
 				<p>
-					Coder, hacker and nerd living in <a href="http://www.hamburg.de" alt="Hamburg">Hamburg</a>, Germany.
+					Coder, hacker and nerd living in <a href="http://en.wikipedia.org/wiki/Hamburg" alt="Hamburg">Hamburg</a>, Germany.
 				</p>
 				<p>
 					Also, co-founder of <a href="http://www.fortytools.com">fortytools</a>, doing mainly 
@@ -36,7 +47,8 @@
 					a Haskell API search engine.
 				</p>
 				<p>
-					Reach me via <a href="http://github.com/tbh">github</a>, 
+					Reach me via <a href="http://twitter.com/wurstschinken">Twitter</a>,
+					<a href="http://github.com/tbh">github</a>, 
 					<a href="http://www.xing.com/profile/TimoB_Huebel">XING</a> or by 
 					<script language="javascript">
 						<!-- 
@@ -45,6 +57,8 @@
 					</script>
 					<noscript><a href="mailto:t DOT h AT gmx DOT info">e-mail</a></noscript>
 				</p>
+				<h2>Latest Tweets</h2>
+				<div class="tweet"></div>
 			</div>
 		</div>
 	</body>

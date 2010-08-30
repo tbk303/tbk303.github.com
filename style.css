@@ -14,11 +14,11 @@ body {
 	width:300px;
 	float:left;
 	margin-top:43px;
-	margin-right:15em;
 }
 
 #right {
 	margin-left:310px;
+	padding-left:15em;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -37,3 +37,18 @@ p {
 a {
 	color:#a00;
 }
+
+div.tweet {
+	width:25em;
+}
+
+.tweet_list {
+	list-style-type:none;
+	padding-left:0;
+	font-size:0.9em;
+}
+
+.tweet_list li {
+	margin-bottom:1em;
+}
+
