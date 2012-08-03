@@ -1,68 +1,73 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-	<head>
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-		<meta name="description" lang="en" content="Personal homepage of Timo B. Kranz"/>
-		<title>Timo B. Kranz</title>
-		<link href='http://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css" href="style.css"/>
-		<script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
-		<script language="javascript" src="jquery.tweet.js" type="text/javascript"></script>  
-		<script type="text/javascript">
-			$(document).ready(function() {
-				$(".tweet").tweet({
-					username: "tbk303",
-					count: 3,
-					loading_text: "Loading tweets..."
-				});
-			});
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <meta name="description" lang="en" content="Personal homepage of Timo B. Kranz"/>
+    <title>Timo B. Kranz</title>
+    <link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+    <script language="javascript" src="jquery.tweet.js" type="text/javascript"></script>  
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $(".tweet").tweet({
+          username: "tbk303",
+          count: 3,
+          loading_text: "Loading tweets..."
+        });
+      });
 
-			function InsertMail(mailnam,mailsvr,maildom,text) {
-				var email = mailnam+'@'+mailsvr+'.'+maildom;
-				if(text=="")
-					document.write("<a href=\"mailto:" + email + "\">" + email + "</a>");
-				else
-					document.write("<a href=\"mailto:" + email +"\">" + text + "</a>");
-			}
-		</script>
-	</head>
-	<body>
-		<div id="content">
-			<div id="left">
-				<img src="tbh.png" alt="Timo B. Kranz"/>
-			</div>
-			<div id="right">
-				<a href="http://github.com/tbh"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
-				<h1>Timo B. Kranz</h1>
-				<p>
-					Coder, hacker and nerd living in <a href="http://en.wikipedia.org/wiki/Hamburg" alt="Hamburg">Hamburg</a>, Germany.
-				</p>
-				<p>
-					Also, co-founder of <a href="http://www.fortytools.com">fortytools</a>, doing mainly 
-					web-related stuff, preferably in <a href="http://www.haskell.org" alt="Haskell">Haskell</a>.
-				</p>
-				<p>
-					Interested in all things related to coding, hacker culture and especially functional programming. 
-					Doing some open source development and having built <a href="http://www.hayoo.info" alt="Hayoo!">Hayoo!</a>,
-					a Haskell API search engine.
-				</p>
-				<p>
-					Reach me via <a href="http://twitter.com/tbk303">Twitter</a>,
-					<a href="http://github.com/tbh">github</a>, 
-					<a href="http://www.xing.com/profile/TimoB_Huebel">XING</a> or by 
-					<script language="javascript">
-						<!-- 
-						InsertMail("me","tbk","name","e-mail"); 
-						//-->
-					</script>
-					<noscript><a href="mailto:t DOT h AT gmx DOT info">e-mail</a></noscript>
-				</p>
-				<code>
-					<a href="tbk.asc">0xEE19CFE6</a> (2E32 2437 78C1 1013 D216 F52A 73F1 3B53 EE19 CFE6)
-				</code>
-				<h2>Latest Tweets</h2>
-				<div class="tweet"></div>
-			</div>
-		</div>
-	</body>
+      function InsertMail(mailnam,mailsvr,maildom,text) {
+        var email = mailnam+'@'+mailsvr+'.'+maildom;
+        if(text=="")
+          document.write("<a href=\"mailto:" + email + "\">" + email + "</a>");
+        else
+          document.write("<a href=\"mailto:" + email +"\">" + text + "</a>");
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Timo B. Kranz</h1>
+    <p>
+      <span>
+        Coder, hacker and nerd living in <a href="http://en.wikipedia.org/wiki/Hamburg" alt="Hamburg">Hamburg</a>, Germany.
+      </span>
+    </p>
+    <p>
+      <span>
+        Also, co-founder of <a href="http://www.fortytools.com">fortytools</a>, doing mainly 
+        web-related stuff, preferably in <a href="http://www.haskell.org" alt="Haskell">Haskell</a>.
+      </span>
+    </p>
+    <p>
+      <span>
+        Interested in all things related to coding, hacker culture and especially functional programming. 
+      </span>
+      <br/>
+      <span>
+        Doing some open source development and having built <a href="http://www.hayoo.info" alt="Hayoo!">Hayoo!</a>,
+        a Haskell API search engine.
+      </span>
+    </p>
+    <p class="contact">
+      <span>
+        Reach me via <a href="http://twitter.com/tbk303">Twitter</a>,
+        <a href="http://github.com/tbh">github</a>, 
+        <a href="http://www.xing.com/profile/TimoB_Huebel">XING</a> or by 
+        <script language="javascript">
+          <!-- 
+          InsertMail("me","tbk","name","e-mail"); 
+          //-->
+        </script>
+        <noscript><a href="mailto:me AT tbk DOT name">e-mail</a></noscript>
+      </span>
+    </p>
+    <code>
+      <a href="tbk.asc">0xEE19CFE6</a> (2E32 2437 78C1 1013 D216 F52A 73F1 3B53 EE19 CFE6)
+    </code>
+    <div>
+      <h2>Latest Tweets</h2>
+      <div class="tweet"></div>
+    </div>
+  </body>
 </html>
 
