@@ -1,0 +1,17 @@
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <meta name="description" lang="en" content="Persönliche Internetseite von Timo B. Kranz"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" type="text/css" href="/assets/css/default.css"/>
+  <script type="text/javascript">
+    function InsertMail(mailnam,mailsvr,maildom,text) {
+      var email = mailnam+'@'+mailsvr+'.'+maildom;
+      if(text=="")
+        document.write("<a href=\"mailto:" + email + "\">" + email + "</a>");
+      else
+        document.write("<a href=\"mailto:" + email +"\">" + text + "</a>");
+    }
+  </script>
+</head>
+

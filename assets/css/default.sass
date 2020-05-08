@@ -1,0 +1,187 @@
+---
+---
+
+@font-face
+ font-family: 'Arvo Regular'
+ src: url('/assets/fonts/Arvo-Regular_201.woff') format('woff')
+ font-weight: normal
+ font-style: normal
+
+@font-face
+ font-family: 'Arvo Gruen'
+ src: url('/assets/fonts/Arvo_Gruen_2015_10.woff') format('woff')
+ font-weight: normal
+ font-style: normal
+
+@font-face
+ font-family: 'PT Sans'
+ src: url('/assets/fonts/ptsans_regular.woff') format('woff')
+ font-weight: normal
+ font-style: normal
+
+@font-face
+ font-family: 'PT Sans Bold'
+ src: url('/assets/fonts/ptsans_bold.woff') format('woff')
+ font-weight: bold
+ font-style: normal
+
+$schwarz: #333
+$gruen: #46962b
+$gelb: #ffee00
+$blau: #4cb4e7
+$magenta: #e6007e
+$dunkelgruen: #0a321e
+
+body
+  width: 100%
+  height: 100%
+  margin: 0
+  padding: 0
+  color: $schwarz
+  font-family: 'PT Sans'
+
+section.cover
+  width: 100%
+  position: relative
+  background: $dunkelgruen
+  min-height: 100vh
+
+  @media (min-width: 650px)
+    height: 100vh
+    overflow: hidden
+
+  div.image
+    background-size: cover
+    background-position: center top
+    position: absolute
+    width: 100%
+    height: 100%
+    overflow: hidden
+    opacity: 0.5
+
+  div.logo
+    z-index: 1000
+    position: absolute
+    background-size: cover
+    background-image: url(/assets/images/sonnenblume.svg)
+    left: 1rem
+    bottom: 1rem
+    width: 75px
+    height: 75px
+
+    @media (min-width: 650px)
+      width: 100px
+      height: 100px
+      left: 2rem
+      bottom: 2rem
+
+    a
+      display: block
+      width: 100%
+      height: 100%
+      box-shadow: none
+
+  div.imprint
+    position: absolute
+    right: 1rem
+    bottom: 1rem
+
+    a, a:hover, a:focus
+      font-size: 14px
+      opacity: 0.8
+      color: white
+      box-shadow: none
+
+section.content
+  max-width: 800px
+  z-index: 1000
+  margin-left: auto
+  margin-right: auto
+  position: relative
+  opacity: 1
+  padding: 1rem
+  padding-bottom: 150px
+
+  @media (min-width: 650px)
+    margin-top: 20vh
+    margin-left: 1rem
+    max-width: 700px
+
+  p
+    color: white
+    font-size: 26px
+    line-height: 1.4
+    font-family: Arvo Regular
+    margin: 1rem 0
+
+    @media (min-width: 650px)
+      font-size: 28px
+
+  blockquote
+    margin: 0
+
+    p
+      font-size: 20px
+
+      @media (min-width: 650px)
+        font-size: 22px
+
+  div.imprint
+    font-size: 16px
+
+  h1
+    font-family: Arvo Gruen
+    font-size: 45px
+    font-weight: 500
+    color: white
+    margin: 0
+
+    @media (min-width: 650px)
+      font-size: 60px
+
+  h2
+    font-family: Arvo Regular
+    font-size: 26px
+    font-weight: 500
+    color: white
+    margin: 0
+
+    @media (min-width: 650px)
+      font-size: 28px
+
+  h3
+    font-family: Arvo Regular
+    font-size: 16px
+    color: white
+    margin: 0
+
+    @media (min-width: 650px)
+      font-size: 18px
+
+    & + p
+      font-size: 16px
+      margin: 0.5rem 0
+
+      @media (min-width: 650px)
+        font-size: 18px
+
+a
+  cursor: pointer
+  color: inherit
+  text-decoration: none
+  box-shadow: inset 0 -0.5em 0 rgba(76,180,231,0.7)
+  -webkit-transition: box-shadow 0.15s ease-in-out
+  transition: box-shadow 0.15s ease-in-out
+  touch-action: manipulation
+
+  &:hover, &:focus
+    text-decoration: none
+    color: inherit
+    box-shadow: inset 0 -1.75em 0 rgba(76,180,231,0.7)
+
+  &.gelb
+    box-shadow: inset 0 -0.5em 0 rgba(255,238,0,0.7)
+
+    &:hover, &:focus
+      box-shadow: inset 0 -1.75em 0 rgba(255,238,0,0.7)
+
