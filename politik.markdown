@@ -1,6 +1,6 @@
 ---
 title: Politik - Timo B. Kranz
-layout: home
+layout: default
 image: politik.jpg
 permalink: politik
 ---

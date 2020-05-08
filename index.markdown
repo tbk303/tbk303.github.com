@@ -1,6 +1,6 @@
 ---
 title: Timo B. Kranz
-layout: home
+layout: default
 image: home.jpg
 ---
 

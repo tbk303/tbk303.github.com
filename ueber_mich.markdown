@@ -1,6 +1,6 @@
 ---
 title: Über mich - Timo B. Kranz
-layout: home
+layout: default
 image: ueber_mich.jpg
 permalink: ueber-mich
 ---

@@ -1,6 +1,6 @@
 ---
 title: Arbeit & Beruf - Timo B. Kranz
-layout: home
+layout: default
 image: beruflich.jpg
 permalink: arbeit-beruf
 ---
@@ -10,7 +10,7 @@ permalink: arbeit-beruf
 Ich bin seit über 10 Jahren selbständig und habe mehrere Unternehmen gegründet.
 Von 2017-2020 war ich Mitglied des Plenums der Handelskammer Hamburg.
 
-> Bei [fortytools](https://www.fortytools.com) bauen wir Online-Bürosoftware für Handwerker und Dienstleistungsunternehmen.
+> Bei [fortytools](https://www.fortytools.com) bauen wir Online-Bürosoftware für Handwerker*innen und kleine Dienstleistungsunternehmen.
 >
 > Mit dem [Leiterkontor](https://www.leiterkontor.de) verkaufen wir Leitern und Gerüste im Internet.
 >
