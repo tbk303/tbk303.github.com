@@ -15,4 +15,4 @@ Von 2017-2020 war ich Mitglied des Plenums der Handelskammer Hamburg.
 > Mit dem [Leiterkontor](https://www.leiterkontor.de) verkaufen wir Leitern und Gerüste im Internet.
 >
 > Vorher habe ich an der [Fachhochschule Wedel](https://www.fh-wedel.de) ein Dipl. (FH) in Medieninformatik sowie
-> einen M.Sc. in Computer Science erworden.
+> einen M.Sc. in Computer Science erworben.
