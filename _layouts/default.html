@@ -3,12 +3,14 @@
   <body>
     <section class="cover">
       <div class="image" style="background-image: url(/assets/images/{{page.image}})"></div>
-      <section class="content">
-        {{ content }}
-      </section>
+      <div class="container">
+        <section class="content">
+          {{ content }}
+        </section>
 
-      <div class="logo"><a href="/"></a></div>
-      <div class="imprint"><a href="{% link kontakt.markdown %}">Impressum</a></div>
+        <div class="logo"><a href="/"></a></div>
+        <div class="imprint"><a href="{% link kontakt.markdown %}">Impressum</a></div>
+      </div>
     </section>
   </body>
 </html>
