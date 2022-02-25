@@ -10,9 +10,9 @@ permalink: arbeit-beruf
 Ich bin seit über 10 Jahren selbständig und habe mehrere Unternehmen gegründet.
 Von 2017-2020 war ich Mitglied des Plenums der Handelskammer Hamburg.
 
-> Bei [fortytools](https://www.fortytools.com) bauen wir Online-Bürosoftware für Handwerker*innen und kleine Dienstleistungsunternehmen.
+> Mit [fortytools](https://www.fortytools.com) baue ich Online-Bürosoftware für Betreuungsdienste und Gebäudereinigungsunternehmen.
 >
-> Mit dem [Leiterkontor](https://www.leiterkontor.de) verkaufen wir Leitern und Gerüste im Internet.
+> Mit dem [Leiterkontor](https://www.leiterkontor.de) verkaufe ich Leitern und Gerüste im Internet.
 >
 > Vorher habe ich an der [Fachhochschule Wedel](https://www.fh-wedel.de) ein Dipl. (FH) in Medieninformatik sowie
 > einen M.Sc. in Computer Science erworben.
