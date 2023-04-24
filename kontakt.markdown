@@ -11,7 +11,9 @@ Schreibt mir gerne!
 
 Ich bin erreichbar auf diversen digitalen Kanälen:
 [Twitter](https://twitter.com/tbk303),
+<a rel="me" href="https://gruene.social/@tbk">Mastodon</a>,
 [Xing](http://www.xing.com/profile/TimoB_Kranz),
+[LinkedIn](https://www.linkedin.com/in/timo-b-kranz-2229931a6/),
 [GitHub](http://github.com/tbk303)
 oder klassisch per
 <script language="javascript">
