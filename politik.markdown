@@ -8,8 +8,7 @@ permalink: politik
 # Bezirkspolitik
 
 Seit 2015 bin ich Mitglied der Bezirksversammlung Hamburg-Nord und mache GRÜNE Politik.
-Im Februar 2020 haben mich meine Kolleg*innen zum Fraktionsvorsitzenden gewählt.
-Anfang 2026 habe ich den Vorsitz niedergelegt und bin weiter als Abgeordneter im Einsatz.
+Dabei liegt mir der nördliche Teil des Bezirks und insbesondere mein Stadtteil Langenhorn besonders am Herzen.
 
 > Ich setze mich ein für Gerechtigkeit in unserer Gesellschaft, nachhaltige Mobilität und eine grüne Verkehrswende
 > sowie Wirtschaft und Unternehmertum.
